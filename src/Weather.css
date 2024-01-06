@@ -1,0 +1,91 @@
+.Weather {
+  background: linear-gradient(45deg, pink, white, lightblue);
+  margin: 350px;
+  padding: 60px;
+}
+.navbar {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  position: relative;
+}
+.navbar-brand {
+  color: #ff5d9e;
+  font-weight: bolder;
+}
+h1,
+h2,
+h3,
+span {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #00204a;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.units {
+  font-family: "Playfair Display", serif;
+  color: #00204a;
+  font-size: 50px;
+  border: #00204a;
+  text-decoration: none #00204a;
+  display: inline-block;
+  position: relative;
+  right: -250px;
+  top: 15px;
+}
+.units:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tempIconClass {
+  text-align: center;
+  display: inline-block;
+  top: 50px;
+  right: -250px;
+  position: relative;
+  font-size: 125px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #00204a;
+  line-height: 0px;
+}
+
+.span-2.span-1 {
+  position: absolute;
+  right: 200px;
+  top: 475px;
+}
+.fa-light.fa-sun-haze {
+  font-size: 500px;
+}
+.main {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+.conditionClass {
+  text-transform: capitalize;
+}
+.active {
+  text-decoration: none;
+  cursor: default;
+  font-family: "Lato", sans-serif;
+  color: #00204a;
+}
+.activeTwo {
+  text-decoration: none;
+  cursor: default;
+  font-family: "Lato", sans-serif;
+  color: #00204a;
+}
+.cityClass {
+  font-size: 40px;
+}
+.weather-date {
+  font-family: "Lato", sans-serif;
+  color: #00204a;
+  font-weight: 1000;
+}
