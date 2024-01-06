@@ -24,7 +24,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
-.units {
+.unit {
   font-family: "Playfair Display", serif;
   color: #00204a;
   font-size: 50px;
@@ -35,12 +35,12 @@ a {
   right: -500px;
   top: 15px;
 }
-.units:hover {
+.unit:hover {
   text-decoration: none;
   color: inherit;
 }
 
-.tempIconClass {
+.temperature {
   text-align: center;
   display: inline-block;
   top: 50px;
