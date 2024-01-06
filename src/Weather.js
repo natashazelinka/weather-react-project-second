@@ -45,7 +45,7 @@ export default function Weather() {
 
         <div class="tempIconClass" id="tempIcon"></div>
         <span class="units">
-          <button href="#">°C</button>|<button href="#">°F</button>
+          <span href="#">°C</span>|<span href="#">°F</span>
         </span>
 
         <br />
